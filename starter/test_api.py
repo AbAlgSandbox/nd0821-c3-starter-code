@@ -3,6 +3,7 @@ import os
 
 import pandas as pd
 
+url = "https://udacity-mlops-census-data-inference.onrender.com/"
 
 def test_get_root():
     """
@@ -11,7 +12,7 @@ def test_get_root():
     that the response contents contain text.
     """
     
-    response = requests.get("http://127.0.0.1:8000/")
+    response = requests.get(url)
     
     assert response.status_code == 200
     assert len(response.text) > 0
@@ -40,7 +41,7 @@ def test_post_inference_under_50k():
         "native-country": "United-States"
     }
     
-    response = requests.post("http://127.0.0.1:8000/infer", json=request_body)
+    response = requests.post(url+"infer", json=request_body)
     
     assert response.status_code == 200
     assert response.json()["prediction"][0] == 0
@@ -69,7 +70,7 @@ def test_post_inference_over_50k():
         "native-country": "United-States"
     }
     
-    response = requests.post("http://127.0.0.1:8000/infer", json=request_body)
+    response = requests.post(url+"infer", json=request_body)
     
     assert response.status_code == 200
     assert response.json()["prediction"][0] == 1
