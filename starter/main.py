@@ -25,20 +25,20 @@ cat_features = [
 
 
 class InputData(BaseModel):
-    age: int = Field(...)
-    workclass: str = Field(...)
-    fnlgt: int = Field(...)
-    education: str = Field(...)
-    education_num: int = Field(..., alias="education-num")
-    marital_status: str = Field(..., alias="marital-status")
-    occupation: str = Field(...)
-    relationship: str = Field(...)
-    race: str = Field(...)
-    sex: str = Field(...)
-    capital_gain: int = Field(..., alias="capital-gain")
-    capital_loss: int = Field(..., alias="capital-loss")
-    hours_per_week: int = Field(..., alias="hours-per-week")
-    native_country: str = Field(..., alias="native-country")
+    age: int = Field(..., examples=[26])
+    workclass: str = Field(..., examples=["Private"])
+    fnlgt: int = Field(..., examples=[122999])
+    education: str = Field(..., examples=["Masters"])
+    education_num: int = Field(..., alias="education-num", examples=[14])
+    marital_status: str = Field(..., alias="marital-status", examples=["Never-married"])
+    occupation: str = Field(..., examples=["Prof-specialty"])
+    relationship: str = Field(..., examples=["Not-in-family"])
+    race: str = Field(..., examples=["White"])
+    sex: str = Field(..., examples=["Male"])
+    capital_gain: int = Field(..., alias="capital-gain", examples=[8614])
+    capital_loss: int = Field(..., alias="capital-loss", examples=[0])
+    hours_per_week: int = Field(..., alias="hours-per-week", examples=[40])
+    native_country: str = Field(..., alias="native-country", examples=["United-States"])
     
     class Config:
         allow_population_by_field_name = True
