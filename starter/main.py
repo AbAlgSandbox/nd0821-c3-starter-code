@@ -25,23 +25,41 @@ cat_features = [
 
 
 class InputData(BaseModel):
-    age: int = Field(..., examples=[26])
-    workclass: str = Field(..., examples=["Private"])
-    fnlgt: int = Field(..., examples=[122999])
-    education: str = Field(..., examples=["Masters"])
-    education_num: int = Field(..., alias="education-num", examples=[14])
-    marital_status: str = Field(..., alias="marital-status", examples=["Never-married"])
-    occupation: str = Field(..., examples=["Prof-specialty"])
-    relationship: str = Field(..., examples=["Not-in-family"])
-    race: str = Field(..., examples=["White"])
-    sex: str = Field(..., examples=["Male"])
-    capital_gain: int = Field(..., alias="capital-gain", examples=[8614])
-    capital_loss: int = Field(..., alias="capital-loss", examples=[0])
-    hours_per_week: int = Field(..., alias="hours-per-week", examples=[40])
-    native_country: str = Field(..., alias="native-country", examples=["United-States"])
+    age: int = Field(..., example=26)
+    workclass: str = Field(..., example="Private")
+    fnlgt: int = Field(..., example=122999)
+    education: str = Field(..., example="Masters")
+    education_num: int = Field(..., alias="education-num", example=14)
+    marital_status: str = Field(..., alias="marital-status", example="Never-married")
+    occupation: str = Field(..., example="Prof-specialty")
+    relationship: str = Field(..., example="Not-in-family")
+    race: str = Field(..., example="White")
+    sex: str = Field(..., example="Male")
+    capital_gain: int = Field(..., alias="capital-gain", example=8614)
+    capital_loss: int = Field(..., alias="capital-loss", example=0)
+    hours_per_week: int = Field(..., alias="hours-per-week", example=40)
+    native_country: str = Field(..., alias="native-country", example="United-States")
     
     class Config:
         allow_population_by_field_name = True
+        schema_extra = {
+            "example": {
+                "age": 26,
+                "workclass": "Private",
+                "fnlgt": 122999,
+                "education": "Masters",
+                "education-num": 14,
+                "marital-status": "Never-married",
+                "occupation": "Prof-specialty",
+                "relationship": "Not-in-family",
+                "race": "White",
+                "sex": "Male",
+                "capital-gain": 8614,
+                "capital-loss": 0,
+                "hours-per-week": 40,
+                "native-country": "United-States"
+            }
+        }
 
 
 app = FastAPI()
