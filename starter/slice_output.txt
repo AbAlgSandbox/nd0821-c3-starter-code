@@ -1,0 +1,366 @@
+Determining performance metrics for unique values of age
+Feature: age
+Value: 39
+age: 39, precision: 0.9519
+age: 39, recall: 0.9245
+age: 39, fbeta: 0.9380
+Feature: age
+Value: 50
+age: 50, precision: 0.9641
+age: 50, recall: 0.9272
+age: 50, fbeta: 0.9453
+Feature: age
+Value: 38
+age: 38, precision: 0.9439
+age: 38, recall: 0.9539
+age: 38, fbeta: 0.9489
+Feature: age
+Value: 53
+age: 53, precision: 0.9465
+age: 53, recall: 0.9365
+age: 53, fbeta: 0.9415
+Feature: age
+Value: 28
+age: 28, precision: 0.9450
+age: 28, recall: 0.8655
+age: 28, fbeta: 0.9035
+Feature: age
+Value: 37
+age: 37, precision: 0.9617
+age: 37, recall: 0.9452
+age: 37, fbeta: 0.9534
+Feature: age
+Value: 49
+age: 49, precision: 0.9602
+age: 49, recall: 0.9369
+age: 49, fbeta: 0.9484
+Feature: age
+Value: 52
+age: 52, precision: 0.9667
+age: 52, recall: 0.9062
+age: 52, fbeta: 0.9355
+Feature: age
+Value: 31
+age: 31, precision: 0.9538
+age: 31, recall: 0.9016
+age: 31, fbeta: 0.9270
+Feature: age
+Value: 42
+age: 42, precision: 0.9660
+age: 42, recall: 0.9481
+age: 42, fbeta: 0.9570
+Feature: age
+Value: 30
+age: 30, precision: 0.9686
+age: 30, recall: 0.9006
+age: 30, fbeta: 0.9333
+Feature: age
+Value: 23
+age: 23, precision: 1.0000
+age: 23, recall: 0.6667
+age: 23, fbeta: 0.8000
+Feature: age
+Value: 32
+age: 32, precision: 0.9375
+age: 32, recall: 0.8730
+age: 32, fbeta: 0.9041
+Feature: age
+Value: 40
+age: 40, precision: 0.9537
+age: 40, recall: 0.9216
+age: 40, fbeta: 0.9374
+Feature: age
+Value: 34
+age: 34, precision: 0.9617
+age: 34, recall: 0.9300
+age: 34, fbeta: 0.9456
+Feature: age
+Value: 25
+age: 25, precision: 0.9038
+age: 25, recall: 0.8868
+age: 25, fbeta: 0.8952
+Feature: age
+Value: 43
+age: 43, precision: 0.9308
+age: 43, recall: 0.8864
+age: 43, fbeta: 0.9081
+Feature: age
+Value: 54
+age: 54, precision: 0.9636
+age: 54, recall: 0.9191
+age: 54, fbeta: 0.9408
+Feature: age
+Value: 35
+age: 35, precision: 0.9583
+age: 35, recall: 0.9539
+age: 35, fbeta: 0.9561
+Feature: age
+Value: 59
+age: 59, precision: 0.9603
+age: 59, recall: 0.9098
+age: 59, fbeta: 0.9344
+Feature: age
+Value: 56
+age: 56, precision: 0.9316
+age: 56, recall: 0.9237
+age: 56, fbeta: 0.9277
+Feature: age
+Value: 19
+age: 19, precision: 1.0000
+age: 19, recall: 1.0000
+age: 19, fbeta: 1.0000
+Feature: age
+Value: 20
+age: 20, precision: 0.0000
+age: 20, recall: 0.0000
+age: 20, fbeta: 0.0000
+Feature: age
+Value: 45
+age: 45, precision: 0.9645
+age: 45, recall: 0.9444
+age: 45, fbeta: 0.9544
+Feature: age
+Value: 22
+age: 22, precision: 1.0000
+age: 22, recall: 0.9231
+age: 22, fbeta: 0.9600
+Feature: age
+Value: 48
+age: 48, precision: 0.9573
+age: 48, recall: 0.9309
+age: 48, fbeta: 0.9439
+Feature: age
+Value: 21
+age: 21, precision: 0.7500
+age: 21, recall: 1.0000
+age: 21, fbeta: 0.8571
+Feature: age
+Value: 24
+age: 24, precision: 0.9333
+age: 24, recall: 0.9032
+age: 24, fbeta: 0.9180
+Feature: age
+Value: 57
+age: 57, precision: 0.9538
+age: 57, recall: 0.9466
+age: 57, fbeta: 0.9502
+Feature: age
+Value: 44
+age: 44, precision: 0.9739
+age: 44, recall: 0.9288
+age: 44, fbeta: 0.9508
+Feature: age
+Value: 41
+age: 41, precision: 0.9698
+age: 41, recall: 0.9211
+age: 41, fbeta: 0.9449
+Feature: age
+Value: 29
+age: 29, precision: 0.9375
+age: 29, recall: 0.8955
+age: 29, fbeta: 0.9160
+Feature: age
+Value: 18
+age: 18, precision: 0.0000
+age: 18, recall: 0.0000
+age: 18, fbeta: 0.0000
+Feature: age
+Value: 47
+age: 47, precision: 0.9495
+age: 47, recall: 0.9132
+age: 47, fbeta: 0.9310
+Feature: age
+Value: 46
+age: 46, precision: 0.9545
+age: 46, recall: 0.9349
+age: 46, fbeta: 0.9446
+Feature: age
+Value: 36
+age: 36, precision: 0.9326
+age: 36, recall: 0.9468
+age: 36, fbeta: 0.9396
+Feature: age
+Value: 79
+age: 79, precision: 1.0000
+age: 79, recall: 0.7778
+age: 79, fbeta: 0.8750
+Feature: age
+Value: 27
+age: 27, precision: 0.9565
+age: 27, recall: 0.8148
+age: 27, fbeta: 0.8800
+Feature: age
+Value: 67
+age: 67, precision: 0.9722
+age: 67, recall: 0.9459
+age: 67, fbeta: 0.9589
+Feature: age
+Value: 33
+age: 33, precision: 0.9655
+age: 33, recall: 0.8796
+age: 33, fbeta: 0.9205
+Feature: age
+Value: 76
+age: 76, precision: 0.7500
+age: 76, recall: 0.6000
+age: 76, fbeta: 0.6667
+Feature: age
+Value: 17
+age: 17, precision: 0.0000
+age: 17, recall: 0.0000
+age: 17, fbeta: 0.0000
+Feature: age
+Value: 55
+age: 55, precision: 0.9333
+age: 55, recall: 0.9589
+age: 55, fbeta: 0.9459
+Feature: age
+Value: 61
+age: 61, precision: 0.9625
+age: 61, recall: 0.8021
+age: 61, fbeta: 0.8750
+Feature: age
+Value: 70
+age: 70, precision: 0.9474
+age: 70, recall: 0.9474
+age: 70, fbeta: 0.9474
+Feature: age
+Value: 64
+age: 64, precision: 0.9434
+age: 64, recall: 0.9434
+age: 64, fbeta: 0.9434
+Feature: age
+Value: 71
+age: 71, precision: 0.8824
+age: 71, recall: 0.9375
+age: 71, fbeta: 0.9091
+Feature: age
+Value: 68
+age: 68, precision: 1.0000
+age: 68, recall: 0.9259
+age: 68, fbeta: 0.9615
+Feature: age
+Value: 66
+age: 66, precision: 0.9714
+age: 66, recall: 0.9714
+age: 66, fbeta: 0.9714
+Feature: age
+Value: 51
+age: 51, precision: 0.9703
+age: 51, recall: 0.9463
+age: 51, fbeta: 0.9582
+Feature: age
+Value: 58
+age: 58, precision: 0.9350
+age: 58, recall: 0.9426
+age: 58, fbeta: 0.9388
+Feature: age
+Value: 26
+age: 26, precision: 0.9219
+age: 26, recall: 0.9365
+age: 26, fbeta: 0.9291
+Feature: age
+Value: 60
+age: 60, precision: 0.9674
+age: 60, recall: 0.8812
+age: 60, fbeta: 0.9223
+Feature: age
+Value: 90
+age: 90, precision: 1.0000
+age: 90, recall: 1.0000
+age: 90, fbeta: 1.0000
+Feature: age
+Value: 75
+age: 75, precision: 1.0000
+age: 75, recall: 1.0000
+age: 75, fbeta: 1.0000
+Feature: age
+Value: 65
+age: 65, precision: 0.9512
+age: 65, recall: 0.9070
+age: 65, fbeta: 0.9286
+Feature: age
+Value: 77
+age: 77, precision: 1.0000
+age: 77, recall: 1.0000
+age: 77, fbeta: 1.0000
+Feature: age
+Value: 62
+age: 62, precision: 0.9571
+age: 62, recall: 1.0000
+age: 62, fbeta: 0.9781
+Feature: age
+Value: 63
+age: 63, precision: 0.9298
+age: 63, recall: 0.8983
+age: 63, fbeta: 0.9138
+Feature: age
+Value: 80
+age: 80, precision: 1.0000
+age: 80, recall: 1.0000
+age: 80, fbeta: 1.0000
+Feature: age
+Value: 72
+age: 72, precision: 1.0000
+age: 72, recall: 1.0000
+age: 72, fbeta: 1.0000
+Feature: age
+Value: 74
+age: 74, precision: 1.0000
+age: 74, recall: 0.7500
+age: 74, fbeta: 0.8571
+Feature: age
+Value: 69
+age: 69, precision: 0.9500
+age: 69, recall: 0.9048
+age: 69, fbeta: 0.9268
+Feature: age
+Value: 73
+age: 73, precision: 1.0000
+age: 73, recall: 0.9000
+age: 73, fbeta: 0.9474
+Feature: age
+Value: 81
+age: 81, precision: 1.0000
+age: 81, recall: 1.0000
+age: 81, fbeta: 1.0000
+Feature: age
+Value: 78
+age: 78, precision: 1.0000
+age: 78, recall: 0.8000
+age: 78, fbeta: 0.8889
+Feature: age
+Value: 88
+age: 88, precision: 0.0000
+age: 88, recall: 0.0000
+age: 88, fbeta: 0.0000
+Feature: age
+Value: 82
+age: 82, precision: 0.0000
+age: 82, recall: 0.0000
+age: 82, fbeta: 0.0000
+Feature: age
+Value: 83
+age: 83, precision: 1.0000
+age: 83, recall: 1.0000
+age: 83, fbeta: 1.0000
+Feature: age
+Value: 84
+age: 84, precision: 1.0000
+age: 84, recall: 1.0000
+age: 84, fbeta: 1.0000
+Feature: age
+Value: 85
+age: 85, precision: 0.0000
+age: 85, recall: 0.0000
+age: 85, fbeta: 0.0000
+Feature: age
+Value: 86
+age: 86, precision: 0.0000
+age: 86, recall: 0.0000
+age: 86, fbeta: 0.0000
+Feature: age
+Value: 87
+age: 87, precision: 0.0000
+age: 87, recall: 0.0000
+age: 87, fbeta: 0.0000

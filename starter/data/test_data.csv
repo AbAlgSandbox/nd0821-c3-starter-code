@@ -1,0 +1,11 @@
+age,workclass,fnlgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,salary
+20,Private,104164,HS-grad,9,Never-married,Handlers-cleaners,Own-child,White,Male,0,0,40,United-States,<=50K
+44,Self-emp-inc,71556,Masters,14,Married-civ-spouse,Sales,Husband,White,Male,0,0,50,?,>50K
+22,Private,243178,Bachelors,13,Never-married,Adm-clerical,Own-child,White,Male,0,0,20,United-States,<=50K
+39,Private,315565,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,Black,Male,0,0,40,Cuba,<=50K
+34,Private,182177,HS-grad,9,Divorced,Craft-repair,Not-in-family,White,Male,3325,0,35,United-States,<=50K
+48,Self-emp-not-inc,82098,Some-college,10,Married-civ-spouse,Exec-managerial,Husband,Asian-Pac-Islander,Male,0,0,65,United-States,<=50K
+58,Local-gov,44246,9th,5,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,40,United-States,<=50K
+26,Private,122999,Masters,14,Never-married,Prof-specialty,Not-in-family,White,Male,8614,0,40,United-States,>50K
+19,Private,148644,HS-grad,9,Never-married,Adm-clerical,Own-child,White,Female,0,0,40,United-States,<=50K
+26,Private,195994,Some-college,10,Never-married,Sales,Not-in-family,White,Female,0,0,15,United-States,<=50K
