@@ -10,8 +10,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder, LabelBinarizer
 
-from ml.data import process_data
-from ml.model import compute_model_metrics, inference
+from starter.ml.data import process_data
+from starter.ml.model import compute_model_metrics, inference
 
 # Need to persist some sample clean raw test data and proper lb object and X and y shapes for process_data test
 # Same can be used for testing inference
